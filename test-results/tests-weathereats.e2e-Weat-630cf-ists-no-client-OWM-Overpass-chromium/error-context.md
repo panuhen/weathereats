@@ -1,0 +1,63 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "AI-Assisted Agentic Coding Evaluation" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e7]:
+          - link "About" [ref=e8] [cursor=pointer]:
+            - /url: /
+          - link "Codex" [ref=e9] [cursor=pointer]:
+            - /url: /codex
+          - link "Claude Code" [ref=e10] [cursor=pointer]:
+            - /url: /claude-code
+          - link "Gemini" [ref=e11] [cursor=pointer]:
+            - /url: /gemini
+          - link "GitHub GPT" [ref=e12] [cursor=pointer]:
+            - /url: /github-gpt
+  - main [ref=e13]:
+    - generic [ref=e14]:
+      - heading "WeatherEats – Codex" [level=1] [ref=e15]
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]: City
+          - combobox "City" [ref=e19]:
+            - option "Helsinki, Finland" [selected]
+            - option "Stockholm, Sweden"
+            - option "Oslo, Norway"
+            - option "Copenhagen, Denmark"
+            - option "London, United Kingdom"
+            - option "Dublin, Ireland"
+            - option "Berlin, Germany"
+            - option "Amsterdam, Netherlands"
+            - option "Brussels, Belgium"
+            - option "Paris, France"
+            - option "Madrid, Spain"
+            - option "Lisbon, Portugal"
+            - option "Rome, Italy"
+            - option "Vienna, Austria"
+            - option "Zurich, Switzerland"
+            - option "Prague, Czech Republic"
+            - option "Warsaw, Poland"
+            - option "Budapest, Hungary"
+            - option "Bratislava, Slovakia"
+            - option "Ljubljana, Slovenia"
+            - option "Zagreb, Croatia"
+            - option "Belgrade, Serbia"
+            - option "Bucharest, Romania"
+            - option "Sofia, Bulgaria"
+            - option "Athens, Greece"
+        - generic [ref=e20]:
+          - generic [ref=e21]: "Radius: 3 km"
+          - slider "Search radius in kilometers" [ref=e22]: "3"
+        - generic [ref=e23]:
+          - button "Preferences" [ref=e24] [cursor=pointer]
+          - link "Selfcheck JSON" [ref=e25] [cursor=pointer]:
+            - /url: /codex/api/selfcheck
+  - button "Open Next.js Dev Tools" [ref=e61] [cursor=pointer]:
+    - img [ref=e62] [cursor=pointer]
+  - alert [ref=e65]
+```

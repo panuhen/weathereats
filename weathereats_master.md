@@ -155,7 +155,7 @@ Rules:
 * Professional appearance with Tailwind spacing & shadcn/ui
 * Components:
 
-  * Header with city selector & theme toggle
+  * City selector
   * Weather panel
   * Radius slider
   * Restaurant grid/cards

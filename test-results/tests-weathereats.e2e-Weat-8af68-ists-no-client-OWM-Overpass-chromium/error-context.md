@@ -1,0 +1,119 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "AI-Assisted Agentic Coding Evaluation" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e7]:
+          - link "About" [ref=e8] [cursor=pointer]:
+            - /url: /
+          - link "Codex" [ref=e9] [cursor=pointer]:
+            - /url: /codex
+          - link "Claude Code" [ref=e10] [cursor=pointer]:
+            - /url: /claude-code
+          - link "Gemini" [ref=e11] [cursor=pointer]:
+            - /url: /gemini
+          - link "GitHub GPT" [ref=e12] [cursor=pointer]:
+            - /url: /github-gpt
+  - main [ref=e13]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - heading "WeatherEats" [level=1] [ref=e17]
+        - paragraph [ref=e18]: Discover weather-appropriate restaurants in European cities
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e21]: Select City
+          - combobox "Select City" [ref=e22]:
+            - option "Helsinki, Finland" [selected]
+            - option "Stockholm, Sweden"
+            - option "Oslo, Norway"
+            - option "Copenhagen, Denmark"
+            - option "London, United Kingdom"
+            - option "Dublin, Ireland"
+            - option "Berlin, Germany"
+            - option "Amsterdam, Netherlands"
+            - option "Brussels, Belgium"
+            - option "Paris, France"
+            - option "Madrid, Spain"
+            - option "Lisbon, Portugal"
+            - option "Rome, Italy"
+            - option "Vienna, Austria"
+            - option "Zurich, Switzerland"
+            - option "Prague, Czech Republic"
+            - option "Warsaw, Poland"
+            - option "Budapest, Hungary"
+            - option "Bratislava, Slovakia"
+            - option "Ljubljana, Slovenia"
+            - option "Zagreb, Croatia"
+            - option "Belgrade, Serbia"
+            - option "Bucharest, Romania"
+            - option "Sofia, Bulgaria"
+            - option "Athens, Greece"
+        - generic [ref=e23]:
+          - generic [ref=e24]: "Search Radius: 3 km"
+          - 'slider "Search Radius: 3 km" [ref=e25] [cursor=pointer]': "3"
+          - generic [ref=e26]:
+            - generic [ref=e27]: 1 km
+            - generic [ref=e28]: 10 km
+        - button "Weather Preferences" [active] [ref=e30] [cursor=pointer]
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - heading "Helsinki, Finland" [level=3] [ref=e35]
+            - paragraph [ref=e36]: broken clouds
+          - generic [ref=e37]:
+            - generic [ref=e38]: 19°C
+            - img "broken clouds" [ref=e39]
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: Humidity
+            - generic [ref=e43]: 95%
+          - generic [ref=e44]:
+            - generic [ref=e45]: Precipitation
+            - generic [ref=e46]: 0.0mm
+          - generic [ref=e47]:
+            - generic [ref=e48]: Wind
+            - generic [ref=e49]: 4.1 m/s
+          - generic [ref=e50]:
+            - generic [ref=e51]: Condition
+            - generic [ref=e52]: Clouds
+      - heading "Finding restaurants..." [level=2] [ref=e54]
+      - generic [ref=e147]:
+        - generic [ref=e148]:
+          - heading "Weather Preferences" [level=2] [ref=e149]
+          - button "Close" [ref=e150] [cursor=pointer]: ×
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e153]: "Cold Weather Threshold: 10°C"
+            - slider [ref=e154] [cursor=pointer]: "10"
+            - generic [ref=e155]:
+              - generic [ref=e156]: "-10°C"
+              - generic [ref=e157]: 20°C
+          - generic [ref=e158]:
+            - generic [ref=e159]: "Warm Weather Threshold: 20°C"
+            - slider [ref=e160] [cursor=pointer]: "20"
+            - generic [ref=e161]:
+              - generic [ref=e162]: 15°C
+              - generic [ref=e163]: 35°C
+          - generic [ref=e164]:
+            - generic [ref=e165]: "Rain Threshold: 0.5mm/h"
+            - slider [ref=e166] [cursor=pointer]: "0.5"
+            - generic [ref=e167]:
+              - generic [ref=e168]: 0mm
+              - generic [ref=e169]: 5mm
+          - generic [ref=e170]:
+            - generic [ref=e171]: "Wind Threshold: 15 m/s"
+            - slider [ref=e172] [cursor=pointer]: "15"
+            - generic [ref=e173]:
+              - generic [ref=e174]: 5 m/s
+              - generic [ref=e175]: 25 m/s
+        - generic [ref=e176]:
+          - button "Cancel" [ref=e177] [cursor=pointer]
+          - button "Save Preferences" [ref=e178] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e184] [cursor=pointer]:
+    - img [ref=e185] [cursor=pointer]
+  - alert [ref=e188]
+```
