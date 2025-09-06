@@ -1,9 +1,9 @@
-// Static selfcheck endpoint for github-gpt
+// Static selfcheck endpoint for github-copilot
 import { NextResponse } from 'next/server';
 
 export async function GET() {
   return NextResponse.json({
-    model: "github-gpt",
+    model: "github-copilot",
     functionality: {
       citySelectorHas25: true,
       defaultCityIsHelsinki: true,

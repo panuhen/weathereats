@@ -13,7 +13,7 @@ export default function WeatherPanel() {
   useEffect(() => {
     setLoading(true);
     setError('');
-    fetch(`/github-gpt/api/weather?lat=${city.lat}&lng=${city.lng}`)
+    fetch(`/github-copilot/api/weather?lat=${city.lat}&lng=${city.lng}`)
       .then(res => res.json())
       .then(data => {
         if (data.error) setError(data.error);

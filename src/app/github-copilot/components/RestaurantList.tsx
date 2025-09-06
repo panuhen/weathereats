@@ -21,7 +21,7 @@ export default function RestaurantList() {
 
   // Fetch weather for ranking
   useEffect(() => {
-    fetch(`/github-gpt/api/weather?lat=${city.lat}&lng=${city.lng}`)
+    fetch(`/github-copilot/api/weather?lat=${city.lat}&lng=${city.lng}`)
       .then(res => res.json())
       .then(data => setWeather(data))
       .catch(() => setWeather(null));
@@ -31,7 +31,7 @@ export default function RestaurantList() {
   useEffect(() => {
     setLoading(true);
     setError('');
-    fetch(`/github-gpt/api/restaurants?lat=${city.lat}&lng=${city.lng}&radius=${radius}`)
+    fetch(`/github-copilot/api/restaurants?lat=${city.lat}&lng=${city.lng}&radius=${radius}`)
       .then(res => res.json())
       .then(data => {
         if (data.error) setError(data.error);

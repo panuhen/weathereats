@@ -1,4 +1,4 @@
-// Server-side weather API route for github-gpt
+// Server-side weather API route for github-copilot
 import { NextResponse } from 'next/server';
 
 export async function GET(req: Request) {
