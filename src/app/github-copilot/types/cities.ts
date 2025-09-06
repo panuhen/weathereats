@@ -1,60 +1,10 @@
-export interface City {
+// European cities for WeatherEats
+export type City = {
   name: string;
   country: string;
   lat: number;
   lng: number;
-}
-
-export interface WeatherData {
-  temp: number;
-  condition: string;
-  humidity: number;
-  precip: number;
-  wind?: {
-    speed: number;
-    deg: number;
-  };
-  description: string;
-  icon: string;
-}
-
-export interface Restaurant {
-  id: string;
-  name: string;
-  cuisine: string;
-  distance: number;
-  lat: number;
-  lng: number;
-  amenities?: string[];
-  outdoor_seating?: boolean;
-  wheelchair?: boolean;
-  address?: string;
-  score?: number;
-}
-
-export interface UserPreferences {
-  coldThreshold: number;
-  warmThreshold: number;
-  rainThreshold: number;
-  windThreshold: number;
-}
-
-export interface WeatherConditions {
-  isCold: boolean;
-  isWarm: boolean;
-  isRainy: boolean;
-  isWindy: boolean;
-  temperature: number;
-  precipitation: number;
-  windSpeed: number;
-}
-
-export interface RankingWeights {
-  cuisine: Record<string, number>;
-  outdoor: number;
-  indoor: number;
-  weather_protection: number;
-}
+};
 
 export const EUROPEAN_CITIES: City[] = [
   { name: "Helsinki", country: "Finland", lat: 60.1699, lng: 24.9384 },
@@ -83,10 +33,3 @@ export const EUROPEAN_CITIES: City[] = [
   { name: "Sofia", country: "Bulgaria", lat: 42.6977, lng: 23.3219 },
   { name: "Athens", country: "Greece", lat: 37.9838, lng: 23.7275 }
 ];
-
-export const DEFAULT_PREFERENCES: UserPreferences = {
-  coldThreshold: 10,
-  warmThreshold: 20,
-  rainThreshold: 0.5,
-  windThreshold: 15
-};

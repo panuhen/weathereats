@@ -23,8 +23,8 @@ export default function Header() {
             <Link href="/gemini" className="text-foreground hover:text-gray-600 dark:hover:text-gray-300 transition-colors">
               Gemini
             </Link>
-            <Link href="/github-gpt" className="text-foreground hover:text-gray-600 dark:hover:text-gray-300 transition-colors">
-              GitHub GPT
+            <Link href="/github-copilot" className="text-foreground hover:text-gray-600 dark:hover:text-gray-300 transition-colors">
+              GitHub Copilot
             </Link>
           </div>
         </div>
