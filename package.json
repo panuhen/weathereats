@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "collect:selfcheck": "node scripts/collect-selfchecks.mjs",
+    "judge": "node scripts/judge.mjs"
   },
   "dependencies": {
     "react": "19.1.0",
