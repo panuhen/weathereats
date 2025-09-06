@@ -182,14 +182,6 @@ export default function Codex() {
           >
             Preferences
           </button>
-          <a
-            className="rounded border px-3 py-2"
-            href="/codex/api/selfcheck"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Selfcheck JSON
-          </a>
         </div>
       </div>
 

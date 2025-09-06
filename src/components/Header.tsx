@@ -7,7 +7,7 @@ export default function Header() {
         <div className="flex justify-between items-center py-4">
           <div className="flex-shrink-0">
             <Link href="/" className="text-xl font-bold text-foreground hover:text-gray-600 dark:hover:text-gray-300">
-              AI-Assisted Agentic Coding Evaluation
+              WeatherEats
             </Link>
           </div>
           <div className="flex space-x-8">

@@ -1,6 +1,6 @@
 # WeatherEats – AI Implementation Prompt
 
-Hello! You are gemini.  
+Hello! You are <YOUR_MODEL>.  
 Remember this, it is important!
 
 ## Your Tasks
@@ -12,7 +12,7 @@ Remember this, it is important!
 - `/src/app/<YOUR_MODEL>/api/selfcheck/route.ts`  
   - Must return static JSON in the format defined in **weathereats_master.md**.  
   - ❌ No external API calls, ❌ No secrets here.  
-  - `"model"` must equal your folder name (e.g., `"gemini"`).
+  - `"model"` must equal your folder name (e.g., `"<YOUR_MODEL>"`).
 
 - `/src/app/<YOUR_MODEL>/security_check.txt`  
   - Start with: `SECRETS_FAIL`  

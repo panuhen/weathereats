@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI-Assisted Agentic Coding Evaluation",
-  description: "AI evaluation platform for comparing various AI implementations and coding approaches",
+  title: "AI-Assisted Development Benchmark: WeatherEats",
+  description: "Comparative analysis of four AI development tools building identical Next.js applications from specification to deployment",
 };
 
 export default function RootLayout({
