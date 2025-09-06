@@ -570,13 +570,17 @@ export default function Home() {
                   This evaluation represents one specific use case with particular requirements and preferences. 
                   Your experience may vary significantly based on different project types, coding styles, and workflows.
                 </p>
-                <div className="flex items-start gap-3">
+                <p>
+                  AI development tools evolve rapidly. These results reflect model performance at the time of testing and 
+                  may not represent current capabilities.
+                </p>
+                <div className="flex flex-col sm:flex-row items-start gap-3">
                   <Image 
                     src="/spider-man.gif" 
                     alt="Spider-Man pointing at Spider-Man meme" 
                     width={120}
                     height={120}
-                    className="rounded border flex-shrink-0"
+                    className="rounded border flex-shrink-0 w-20 h-20 sm:w-30 sm:h-30 object-cover"
                     unoptimized
                   />
                   <p>
@@ -586,10 +590,6 @@ export default function Home() {
                     It&apos;s AI evaluation inception all the way down!
                   </p>
                 </div>
-                <p>
-                  AI development tools evolve rapidly. These results reflect model performance at the time of testing and 
-                  may not represent current capabilities.
-                </p>
               </div>
             </div>
           </div>
