@@ -15,7 +15,7 @@ export default function Home() {
       <article className="prose prose-lg max-w-none">
         <header className="mb-12">
           <h1 className="text-5xl font-bold mb-4 tracking-tight">
-            AI-Assisted Development Benchmark: WeatherEats
+            AI-Assisted Development Comparison: WeatherEats
           </h1>
           <div className="text-sm text-gray-500 mb-4">September 6, 2025</div>
           <p className="text-xl text-gray-600 font-light leading-relaxed">
@@ -29,16 +29,48 @@ export default function Home() {
           <p className="mb-4 leading-relaxed">
             WeatherEats is a Next.js application for discovering restaurants in European cities 
             based on current weather conditions. Four AI models independently implemented the 
-            application using identical specifications (<a href="prompt.md" className="text-blue-600 hover:text-blue-800 underline">view spec</a>) to evaluate their software development capabilities.
+            application using identical <a href="prompt.md" className="text-blue-600 hover:text-blue-800 underline">specifications</a> to evaluate their software development capabilities.
           </p>
           <p className="mb-4 leading-relaxed">
-            This project was selected as an evaluation benchmark because it combines multiple real-world challenges: API integrations, esponsive UI design, and complex business logic - providing a comprehensive test of AI coding capabilities. The complete evaluation methodology and results are documented in the <a href="weathereats_master.md" className="text-blue-600 hover:text-blue-800 underline">master documentation</a>.
+            This project was selected as an evaluation benchmark because it combines multiple real-world challenges: API integrations, responsive UI design, and complex business logic - providing a comprehensive test of AI coding capabilities. The complete evaluation methodology and results are documented in the <a href="weathereats_master.md" className="text-blue-600 hover:text-blue-800 underline">master documentation</a>.
           </p>
           <p className="mb-4 leading-relaxed">
             <strong>Core Functionality:</strong> Users select from 25 European cities, view current weather, 
             and receive restaurant recommendations ranked by weather suitability. The application integrates 
             real weather data with restaurant location data to provide contextually relevant suggestions.
           </p>
+        </section>
+
+        <section className="mb-10">
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 text-center">
+            <h2 className="text-xl font-semibold text-gray-900 mb-4">Compare the Live Results</h2>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs md:text-sm">
+              <a
+                href="/codex"
+                className="bg-white border border-gray-300 text-gray-900 px-3 py-2 rounded-md hover:bg-gray-50 transition-colors font-medium whitespace-nowrap"
+              >
+                Codex (GPT-5)
+              </a>
+              <a
+                href="/claude-code"
+                className="bg-white border border-gray-300 text-gray-900 px-3 py-2 rounded-md hover:bg-gray-50 transition-colors font-medium whitespace-nowrap"
+              >
+                Claude Code (Sonnet 4)
+              </a>
+              <a
+                href="/gemini"
+                className="bg-white border border-gray-300 text-gray-900 px-3 py-2 rounded-md hover:bg-gray-50 transition-colors font-medium whitespace-nowrap"
+              >
+                Gemini (2.5 Pro)
+              </a>
+              <a
+                href="/github-copilot"
+                className="bg-white border border-gray-300 text-gray-900 px-3 py-2 rounded-md hover:bg-gray-50 transition-colors font-medium whitespace-nowrap"
+              >
+                GitHub Copilot (GPT-4.1)
+              </a>
+            </div>
+          </div>
         </section>
 
         <section className="mb-10">
@@ -485,10 +517,7 @@ export default function Home() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold mb-4">Evaluator Insights</h2>
-          <p className="mb-6 leading-relaxed text-gray-600">
-            Personal observations from hands-on testing and development experience
-          </p>
+          <h2 className="text-2xl font-semibold mb-4">Evaluation Insights</h2>
 
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-gray-50 border rounded-lg p-6">
@@ -564,7 +593,7 @@ export default function Home() {
         <section className="mb-10">
           <div className="border-t pt-8">
             <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
-              <h3 className="font-medium text-yellow-800 mb-3">⚠️ Evaluation Disclaimer</h3>
+              <h3 className="font-medium text-yellow-800 mb-3">⚠️ Disclaimer</h3>
               <div className="text-sm text-yellow-700 space-y-2">
                 <p>
                   This evaluation represents one specific use case with particular requirements and preferences. 
@@ -574,18 +603,18 @@ export default function Home() {
                   AI development tools evolve rapidly. These results reflect model performance at the time of testing and 
                   may not represent current capabilities.
                 </p>
-                <div className="flex flex-col sm:flex-row items-start gap-3">
+                <div className="flex flex-col sm:flex-row items-center sm:items-start gap-3">
                   <Image 
                     src="/spider-man.gif" 
                     alt="Spider-Man pointing at Spider-Man meme" 
                     width={120}
                     height={120}
-                    className="rounded border flex-shrink-0 w-20 h-20 sm:w-30 sm:h-30 object-cover"
+                    className="rounded border flex-shrink-0"
                     unoptimized
                   />
                   <p>
                     <strong>The meta-evaluation paradox:</strong> This evaluation combined human testing with LLM-based code analysis. 
-                    So yes, we partially used AI to judge other AIs - including Claude evaluating Claude&apos;s own implementation. 
+                    So yes, AI was partially used to judge other AIs - including Claude evaluating Claude&apos;s own implementation.
                     While we tried to balance perspectives, we can&apos;t rule out some bias toward patterns that one particular AI might prefer. 
                     It&apos;s AI evaluation inception all the way down!
                   </p>

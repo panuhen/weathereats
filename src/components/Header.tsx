@@ -8,10 +8,10 @@ export default function Header() {
 
   const navigation = [
     { name: "About", href: "/" },
-    { name: "Codex", href: "/codex" },
-    { name: "Claude Code", href: "/claude-code" },
-    { name: "Gemini", href: "/gemini" },
-    { name: "GitHub Copilot", href: "/github-copilot" },
+    { name: "Codex (GPT-5)", href: "/codex" },
+    { name: "Claude Code (Sonnet 4)", href: "/claude-code" },
+    { name: "Gemini (2.5 Pro)", href: "/gemini" },
+    { name: "GitHub Copilot (GPT-4.1)", href: "/github-copilot" },
   ];
 
   return (

@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI-Assisted Development Benchmark: WeatherEats",
+  title: "AI-Assisted Development Comparison: WeatherEats",
   description: "Comparative analysis of four AI development tools building identical Next.js applications from specification to deployment",
 };
 
