@@ -16,6 +16,25 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "AI-Assisted Development Comparison: WeatherEats",
   description: "Comparative analysis of four AI development tools building identical Next.js applications from specification to deployment",
+  openGraph: {
+    title: "AI-Assisted Development Comparison: WeatherEats",
+    description: "Comparative analysis of four AI development tools building identical Next.js applications from specification to deployment",
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'WeatherEats AI Development Comparison Study'
+      }
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "AI-Assisted Development Comparison: WeatherEats",
+    description: "Comparative analysis of four AI development tools building identical Next.js applications",
+    images: ['/og-image.png'],
+  },
 };
 
 export default function RootLayout({
