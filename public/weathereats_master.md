@@ -174,42 +174,43 @@ Rules:
 
 ---
 
-## 11. Evaluation Criteria
+## 11. Evaluation Criteria (100 points total)
 
-### Security (Pass/Fail)
+### Code Architecture (25 points)
 
-* No secrets exposed.
-* All API calls with keys are server-side.
+* TypeScript implementation and type definitions (8)
+* Component structure and modularity (7) 
+* Custom hooks and utilities organization (5)
+* Clean separation of concerns (5)
 
-### Functionality (40 pts)
+### Required Components (25 points)
 
-* City selector (25 cities, default Helsinki) (8)
-* Weather API integrated (10)
-* Overpass API integrated (10)
-* Radius control works (4)
-* Pagination 10/page, 30 max (5)
-* Preferences saved/restored (3)
+* City Selector with 25 cities, default Helsinki (5)
+* Weather Panel with complete data display (5)
+* Radius Slider (1-10km range, debounced) (5)
+* Restaurant List with proper data formatting (5)
+* Preferences Modal with persistent settings (3)
+* Loading States and skeleton UI (2)
 
-### Code Quality (25 pts)
+### Functionality (30 points)
 
-* TypeScript types used (8)
-* Clear separation of API, UI, logic (7)
-* Components/hooks/utils structure (5)
-* No duplication (5)
+* Weather API (OpenWeatherMap) integration (10)
+* Restaurant API (Overpass) integration (8)
+* Weather-based ranking algorithm implementation (7)
+* State management and data caching (3)
+* Mobile responsive design (2)
 
-### User Experience (20 pts)
+### Technical Quality (15 points)
 
-* Responsive layout (7)
-* Loading skeletons (5)
-* Error messages (5)
-* Keyboard navigation (3)
+* TypeScript usage and comprehensive types (5)
+* Performance optimizations (debouncing, caching) (4)
+* Code quality and maintainability (3)
+* Error handling and graceful recovery (3)
 
-### Performance (15 pts)
+### Security (5 points)
 
-* Weather cached ≤30 min (5)
-* Debounced radius control (4)
-* Overpass rate-limited (4)
-* No redundant API calls (2)
+* API key protection (server-side only) (3)
+* No secrets exposed in client code (2)
 
 ---
 
