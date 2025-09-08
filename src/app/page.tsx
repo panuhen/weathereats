@@ -47,25 +47,25 @@ export default function Home() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs md:text-sm">
               <a
                 href="/codex"
-                className="bg-white border border-gray-300 text-gray-900 px-3 py-2 rounded-md hover:bg-gray-50 transition-colors font-medium whitespace-nowrap"
+                className="bg-white border border-gray-300 text-gray-900 px-3 py-2 rounded-md hover:bg-gray-50 transition-colors font-medium text-center leading-tight min-h-[3rem] flex items-center justify-center"
               >
                 Codex (GPT-5)
               </a>
               <a
                 href="/claude-code"
-                className="bg-white border border-gray-300 text-gray-900 px-3 py-2 rounded-md hover:bg-gray-50 transition-colors font-medium whitespace-nowrap"
+                className="bg-white border border-gray-300 text-gray-900 px-3 py-2 rounded-md hover:bg-gray-50 transition-colors font-medium text-center leading-tight min-h-[3rem] flex items-center justify-center"
               >
                 Claude Code (Sonnet 4)
               </a>
               <a
                 href="/gemini"
-                className="bg-white border border-gray-300 text-gray-900 px-3 py-2 rounded-md hover:bg-gray-50 transition-colors font-medium whitespace-nowrap"
+                className="bg-white border border-gray-300 text-gray-900 px-3 py-2 rounded-md hover:bg-gray-50 transition-colors font-medium text-center leading-tight min-h-[3rem] flex items-center justify-center"
               >
                 Gemini (2.5 Pro)
               </a>
               <a
                 href="/github-copilot"
-                className="bg-white border border-gray-300 text-gray-900 px-3 py-2 rounded-md hover:bg-gray-50 transition-colors font-medium whitespace-nowrap"
+                className="bg-white border border-gray-300 text-gray-900 px-3 py-2 rounded-md hover:bg-gray-50 transition-colors font-medium text-center leading-tight min-h-[3rem] flex items-center justify-center"
               >
                 GitHub Copilot (GPT-4.1)
               </a>
